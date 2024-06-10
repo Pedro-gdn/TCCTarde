@@ -1,19 +1,18 @@
 @import url(menu.css);
-@import url(menumobile.css);
 
 *
 {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-a{
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3;
-}
-
-a:hover
+ul
 {
-    opacity: 0.7;
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
 }
